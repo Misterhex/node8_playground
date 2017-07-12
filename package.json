@@ -1,0 +1,25 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "throttle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-coverage": "NODE_ENV=test istanbul cover _mocha —- -R *test*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "redis": "^2.7.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "expressjs": "^1.0.1"
+  }
+}
