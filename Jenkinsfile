@@ -1,5 +1,4 @@
 pipeline {
-    agent { docker '' }
     agent {
         dockerfile {
             filename "node:8.2.1"
